@@ -5,7 +5,6 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     ping = require('ping'),
-
     watcher = require('./lib/file-watch'),
     perl = require('./lib/perl'),
     config = require('./config');
